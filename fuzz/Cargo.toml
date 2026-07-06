@@ -1,0 +1,17 @@
+[package]
+name = "session_fuzzer"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[[bin]]
+name = "session_fuzzer"
+path = "src/bin/session_fuzzer.rs"
+
+[[bin]]
+name = "poc_runner"
+path = "src/bin/poc_runner.rs"
+
+[dependencies]
+ventrail-core = { path = "../ventrail-core" }
+libfuzzer-sys = "0.4"

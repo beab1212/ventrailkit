@@ -1,0 +1,43 @@
+//! Ventrail core - hydrothermal vent observatory wire and package toolkit.
+
+pub mod common;
+pub mod wire;
+pub mod risk;
+pub mod package;
+
+pub mod expedition;
+pub mod plume;
+pub mod chimney;
+pub mod sampler;
+pub mod chemistry;
+pub mod sonar;
+pub mod mooring;
+pub mod ventmap;
+pub mod organism;
+pub mod pressure;
+pub mod current;
+pub mod actuator;
+pub mod thermal;
+pub mod sulfide;
+pub mod brine;
+pub mod marker;
+pub mod transect;
+pub mod reef;
+pub mod basalt;
+pub mod sediment;
+pub mod camera;
+pub mod spectrometer;
+pub mod navfix;
+pub mod station;
+pub mod calibration;
+pub mod decklog;
+pub mod rovpath;
+pub mod beacon;
+pub mod microbe;
+pub mod isotope;
+pub mod turbidity;
+pub mod flowmeter;
+pub mod magnetics;
+pub mod archive;
+pub mod payload;
+pub mod diagnostics;

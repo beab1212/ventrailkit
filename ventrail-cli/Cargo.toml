@@ -1,0 +1,11 @@
+[package]
+name = "ventrail-cli"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "ventrail"
+path = "src/main.rs"
+
+[dependencies]
+ventrail-core = { path = "../ventrail-core" }

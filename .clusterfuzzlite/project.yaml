@@ -1,0 +1,6 @@
+language: rust
+main_repo: '.'
+sanitizers:
+  - address
+fuzzing_engines:
+  - libfuzzer
